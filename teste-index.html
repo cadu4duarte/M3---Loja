@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="estilos.css">
+    <title>M3 - Loja Digital</title>
+  </head>
+  <body>
+    <nav id="navbar">
+
+      <div>
+        <span class="logo"><a href=""><img src="img/logo-m3.png" alt=""></a></span>
+       
+      </div>
+      
+      <div id="carrinho">
+
+        <i onclick="acao()" class="fas fa-cart-plus size fa-2x" ></i>
+        <div class="modal">
+              <div onclick="fechar()" class="fechar"><i class="fas fa-window-close "></i></div>
+              <h2>Minha cesta</h2>
+              <div id="itensSalvos">
+                
+                Ainda não há itens no carrinho.
+              </div>
+        </div>
+   
+      </div>
+    </nav>
+    <hr>
+
+    
+    <div class="container">
+
+    <div id="header">
+      <span><h1>Blusas</h1></span>
+      
+    </div>
+
+    <main id="container"><!--início main-->
+      <div class="filter"><!--início filter-->
+
+        
+
+        <div class="color">
+          <h2>Cores:</h2>
+            <input id="p" type="radio" name="cor" value="preto" onclick="preto()"> Preto
+            <br>
+            <input id="m" type="radio" name="cor" value="azul" onclick="marrom()"> Marrom
+            <br>
+            <input id="g" type="radio" name="cor" value="branco" onclick="branco()"> Branco
+            <br>
+            <input id="p" type="radio" name="cor" value="cinza" onclick="cinza()"> Cinza
+            <br>
+            <input id="m" type="radio" name="cor" value="laranja" onclick="laranja()"> Laranja
+
+
+        </div>
+        <div class="height">
+          <h2>Tamanhos:</h2>
+          <input id="p" type="radio" name="tamanho" value="P" onclick="testeTamanhoP()"> P
+          <br>
+          <input id="m" type="radio" name="tamanho" value="M" onclick="testeTamanhoM()"> M
+          <br>
+          <input id="g" type="radio" name="tamanho" value="G" onclick="testeTamanhoG()"> G
+          <br>
+
+
+        </div>
+        <div class="price">
+          <h2>Faixa de preço:</h2>
+          <input type="radio" name="preço" value="op1" onclick="menoresQue50()"> De R$ 0 até R$ 50
+          <br>
+          <input type="radio" name="preço" value="op2" onclick="menoresQue150()"> De R$ 51 até R$ 150
+          <br>
+          <input type="radio" name="preço" value="op3" onclick="menoresQue200()"> De R$ 151 até R$ 200
+
+        </div>
+
+        
+
+        <h2></h2>
+        <div >
+      
+        </div><!--carrinho-->
+
+      </div><!--fim filter-->
+
+      <div id="produtos">
+      </div>
+        
+      </div>
+
+    </div>
+  
+    </main><!--fim main-->
+
+    <section>
+      
+    </section>
+
+    
+
+    <script src="app.js">
+    
+
+    </script>
+
+  </body>
+
+  <footer>M3 - Todos os direitos reservados</footer>
+</div>
+</html>
