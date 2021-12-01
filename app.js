@@ -246,7 +246,7 @@ testeTamanhoM = () => {
 }
 
 testeTamanhoP = () => {
-  itens = itens2
+  itens = itens2;
   const filtroTamanhoP = itens.filter(valorAtual => {
     return valorAtual.tamanho == 'P'
   })

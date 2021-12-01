@@ -215,3 +215,50 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #carrinho {
+  
+    padding: 5px;
+    width: 100px;
+    margin-left: 55%;
+    float: right;
+    
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #carrinho {
+  
+    padding: 5px;
+    width: 100px;
+    margin-left: 65%;
+    float: right;
+    
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+
+  #carrinho {
+  
+    padding: 5px;
+    width: 100px;
+    margin-left: 70%;
+    float: right;
+    
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
