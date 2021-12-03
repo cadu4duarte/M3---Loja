@@ -243,20 +243,68 @@ footer {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  
-
   #carrinho {
   
     padding: 5px;
     width: 100px;
     margin-left: 70%;
     float: right;
-    
+  }
+  
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #produtos {
+    width: 79%;
+    flex-wrap: wrap;
+    background: white;
+    display: flex;
+    padding-left: 0px;
+  }
+
+  .roupas {
+    width: 230px;
+    margin: 10px 20px;
+    background: white;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+   
+    /*flex-wrap: wrap;*/
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #produtos {
+    width: 79%;
+    height: 60%;
+    flex-wrap: wrap;
+    background: white;
+    display: flex;
+    padding-left: 30px;
+  
+  }
+
+  .roupas {
+    width: 230px;
+    margin: 10px 20px;
+    background: white;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+   
+    /*flex-wrap: wrap;*/
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
