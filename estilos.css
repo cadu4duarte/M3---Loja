@@ -227,6 +227,8 @@ footer {
     float: right;
     
   }
+
+  
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -238,6 +240,26 @@ footer {
     margin-left: 65%;
     float: right;
     
+  }
+
+  #produtos {
+    width: 79%;
+    flex-wrap: wrap;
+    background: white;
+    display: flex;
+    padding-left: 20%;
+    margin-left: 10px;
+  }
+
+  .roupas {
+    width: 230px;
+    margin: 10px 20px;
+    background: white;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+   
+    /*flex-wrap: wrap;*/
   }
 }
 
